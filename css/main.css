@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Clases reutilizables*/
+.container-flex-column{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.vh100 {
+height: 100vh;
+}
+.box-form{
+  padding: 10px;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+}
+body.background{
+  background-image: url('https://www.xmple.com/wallpaper/gradient-linear-pink-blue-5120x2880-c2-fec7ea-c9c7fe-a-225-f-14.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*Estilos para vista splash*/
+div.row.container-flex-column div.col.s3{
+  margin-left: 0;
+}
+/*Estilos para las vistas*/
+
+a.btn-large.disabled.pulse.encriptar, a.btn-large.pulse.encriptar{
+  width: 220px;
+}
+a.btn-large.disabled.pulse.return-encriptar, a.btn-large.pulse.return-encriptar{
+  width: 230px;
+}
+a.btn-large.pulse.btn-home{
+  width: 295px;
+}
+  /* label color */
+   .input-field label {
+     color: #000;
+   }
+   .input-field input[type=text]:not(.browser-default) {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
