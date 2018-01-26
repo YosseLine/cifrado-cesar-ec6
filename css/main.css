@@ -39,9 +39,6 @@ a.btn-large.disabled.pulse.encriptar, a.btn-large.pulse.encriptar{
 a.btn-large.disabled.pulse.return-encriptar, a.btn-large.pulse.return-encriptar{
   width: 230px;
 }
-a.btn-large.pulse.btn-home{
-  width: 295px;
-}
   /* label color */
    .input-field label {
      color: #000;
